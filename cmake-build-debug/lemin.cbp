@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lemin"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/romarash/Desktop/lemin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/romarash/Desktop/lemin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/romarash/Desktop/lemin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lemin">
+				<Option output="/Users/romarash/Desktop/lemin/cmake-build-debug/lemin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/romarash/Desktop/lemin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/romarash/Desktop/lemin/includes"/>
+					<Add directory="/Users/romarash/Desktop/lemin/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 lemin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lemin/fast">
+				<Option output="/Users/romarash/Desktop/lemin/cmake-build-debug/lemin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/romarash/Desktop/lemin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/romarash/Desktop/lemin/includes"/>
+					<Add directory="/Users/romarash/Desktop/lemin/src"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 lemin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/romarash/Desktop/lemin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/romarash/Desktop/lemin/includes/ft_lemin.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/includes/ft_printf.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/includes/libft.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/includes/vs.h">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_atoi.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_bitwise_shift.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_bitwise_shift_buf.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_btree_apply_infix.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_btree_apply_prefix.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_btree_apply_suffix.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_btree_new_node.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_buf_init_d.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_buf_init_dioux.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_buf_init_e.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_buf_init_float.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_buf_init_inff.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_buf_init_o.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_buf_init_u.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_buf_init_x.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_bzero.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_check_infnan.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_check_linfnan.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_define_format.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_del.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_division_str.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_double_exp.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_double_mantissa.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_exp.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_help.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_help_2.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_if_hash.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_isalnum.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_isalpha.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_isascii.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_isdigit.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_isprint.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_itoa.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_itoa_base.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_itoa_s.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_itoa_u.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_ldouble_mantissa.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_left_alignment.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_lstadd.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_lstapend.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_lstat.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_lstdel.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_lstdelone.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_lstiter.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_lstlast.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_lstmap.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_lstnew.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_lstsize.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_memalloc.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_memccpy.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_memchr.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_memcmp.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_memcpy.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_memdel.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_memmove.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_memset.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_overflow_digit_check.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_parser.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_pow.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_pow_str_10.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_pow_str_2.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_print_binar.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_print_char.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_print_decimal.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_print_float.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_print_hex.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_print_octal.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_print_percent.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_print_pointer.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_print_string.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_print_udecimal.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_printf.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_putchar.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_putchar_fd.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_putendl.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_putendl_fd.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_putnbr.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_putnbr_fd.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_putstr.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_putstr_fd.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_right_alignment.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_rounding_f.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strcat.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strchr.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strclr.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strcmp.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strcpy.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strdel.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strdup.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strequ.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_striter.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_striteri.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strjoin.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strlcat.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strlen.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strmap.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strmapi.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strncat.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strncmp.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strncpy.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strnequ.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strnew.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strnstr.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strrchr.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strrev.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strsplit.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strstr.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strsub.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_strtrim.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_sum_str_frac.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_sum_str_int.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_tolower.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_toupper.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_vspom4.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/ft_vspomog.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/get_next_line.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/libft/kostyliivelosipedy.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_add_command.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_add_links.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_add_out.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_add_room.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_build_group.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_cleaner_ant.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_create_ant.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_create_gpaths.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_create_group.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_create_link.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_create_nodes.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_create_path.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_create_room.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_create_tree.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_del_dead_ends.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_init_lemin.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_manipulate_ant.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_navigation.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_path_utils.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_print.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_print_path.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_solution.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_solution_utils.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_val.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/ft_val_overflow.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/src/main.c">
+			<Option target="lemin"/>
+		</Unit>
+		<Unit filename="/Users/romarash/Desktop/lemin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
